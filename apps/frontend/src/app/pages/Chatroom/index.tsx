@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React, { useState, useEffect } from 'react';
 
 import ScrollContainer from 'react-indiana-drag-scroll';
@@ -5,11 +6,17 @@ import { Fab } from '@material-ui/core';
 import { Send as SendIcon } from '@material-ui/icons';
 
 import io from 'socket.io-client';
+=======
+import React from 'react';
+
+import ScrollContainer from 'react-indiana-drag-scroll';
+>>>>>>> Stashed changes
 
 import {
   Container,
   ChatWindow,
   ChatArea,
+<<<<<<< Updated upstream
   // Sidebar,
   // SidebarHeader,
   // UserList,
@@ -63,6 +70,81 @@ const Chatroom: React.FC = () => {
     });
     setMessage('');
   };
+=======
+  Sidebar,
+  SidebarHeader,
+  UserList,
+  UserCard,
+  Divider,
+  Header,
+  HeaderLogo,
+  MessageDiv,
+  MessageInput,
+} from './styles';
+
+import logo from '../../../assets/logo_header.png';
+
+const Chatroom: React.FC = () => {
+  const username = JSON.parse(localStorage.getItem('username'));
+  const users = [
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+    'Adryan',
+    'Peppa',
+    'Ivillys',
+    'Jonas',
+    'Hiran',
+    'Davi',
+    'Monaly',
+  ];
+>>>>>>> Stashed changes
 
   return (
     <Container>
@@ -70,6 +152,7 @@ const Chatroom: React.FC = () => {
         <Header>
           <HeaderLogo src={logo} alt="Logo do Superchat" />
         </Header>
+<<<<<<< Updated upstream
         <ChatArea>
           <MessagesDiv>
             {chat.map((chat) => {
@@ -113,6 +196,28 @@ const Chatroom: React.FC = () => {
               <SendIcon />
             </Fab>
           </MessageInputDiv>
+=======
+        <Sidebar>
+          <SidebarHeader>Usuários Online</SidebarHeader>
+          <ScrollContainer className="scroll-container">
+            <UserList>
+              {users.map((user, index) => {
+                return (
+                  <>
+                    <UserCard key={index}>{user}</UserCard>
+                    <Divider />
+                  </>
+                );
+              })}
+            </UserList>
+          </ScrollContainer>
+        </Sidebar>
+        <ChatArea>
+          <MessageDiv>
+            <input type="text" />
+            {/* <MessageInput></MessageInput> */}
+          </MessageDiv>
+>>>>>>> Stashed changes
         </ChatArea>
       </ChatWindow>
     </Container>
@@ -120,6 +225,7 @@ const Chatroom: React.FC = () => {
 };
 
 export default Chatroom;
+<<<<<<< Updated upstream
 
 {
   /* <Sidebar>
@@ -138,3 +244,5 @@ export default Chatroom;
   </ScrollContainer>
 </Sidebar> */
 }
+=======
+>>>>>>> Stashed changes

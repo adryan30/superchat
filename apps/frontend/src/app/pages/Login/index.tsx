@@ -15,19 +15,27 @@ const Login: React.FC = () => {
   const history = useHistory();
   const { dispatch: setUsername } = useLocalStorage('username');
 
+<<<<<<< Updated upstream
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') history.push('/chat');
   };
 
+=======
+>>>>>>> Stashed changes
   return (
     <Container>
       <LoginCard>
         <LogoImg src={logo} />
+<<<<<<< Updated upstream
         <UsernameInput
           onChange={(e) => setUsername(e.target.value)}
           onKeyPress={handleKeyPress}
         />
         <LoginButton onClick={() => history.push('/chat')}>Entrar</LoginButton>
+=======
+        <UsernameInput onChange={(e) => setUsername(e.target.value)} />
+        <LoginButton onClick={() => history.push('/chat/')}>Entrar</LoginButton>
+>>>>>>> Stashed changes
       </LoginCard>
     </Container>
   );
