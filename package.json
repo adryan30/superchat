@@ -29,8 +29,11 @@
   "private": true,
   "dependencies": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "@nestjs/common": "^7.0.0",
@@ -42,7 +45,10 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "react-icons": "^3.11.0",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "react-indiana-drag-scroll": "^1.6.1",
@@ -50,8 +56,11 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.5.5",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "styled-components": "^5.1.1"
@@ -78,8 +87,11 @@
     "@types/react-dom": "16.9.8",
     "@types/react-router-dom": "5.1.5",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "@types/socket.io": "^2.1.11",
     "@types/socket.io-client": "^1.4.33",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "@types/styled-components": "^5.1.2",

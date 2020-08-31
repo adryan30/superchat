@@ -6,7 +6,11 @@ import { MessagesGateway } from './messages.gateway';
 @Module({
   controllers: [MessagesController],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   providers: [MessagesService, MessagesGateway],
+=======
+  providers: [MessagesService, MessagesGateway]
+>>>>>>> Stashed changes
 =======
   providers: [MessagesService, MessagesGateway]
 >>>>>>> Stashed changes

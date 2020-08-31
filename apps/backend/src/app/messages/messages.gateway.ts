@@ -2,6 +2,7 @@ import {
   SubscribeMessage,
   WebSocketGateway,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   OnGatewayInit,
   WebSocketServer,
   OnGatewayConnection,
@@ -35,6 +36,8 @@ export class MessagesGateway
   handleMessage(_: Socket, payload: { user: string; message: string }): void {
     this.wss.emit('msgToClient', payload);
 =======
+=======
+>>>>>>> Stashed changes
   MessageBody,
 } from '@nestjs/websockets';
 
@@ -43,6 +46,9 @@ export class MessagesGateway {
   @SubscribeMessage('message')
   handleMessage(@MessageBody() data: { message: string }) {
     return data;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   }
 }

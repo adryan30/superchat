@@ -11,7 +11,10 @@ import { AppModule } from './app/app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   app.enableCors();
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   const globalPrefix = 'api';

@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import React, { useState, useEffect } from 'react';
 
 import ScrollContainer from 'react-indiana-drag-scroll';
@@ -11,11 +12,17 @@ import React from 'react';
 
 import ScrollContainer from 'react-indiana-drag-scroll';
 >>>>>>> Stashed changes
+=======
+import React from 'react';
+
+import ScrollContainer from 'react-indiana-drag-scroll';
+>>>>>>> Stashed changes
 
 import {
   Container,
   ChatWindow,
   ChatArea,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   // Sidebar,
   // SidebarHeader,
@@ -71,6 +78,8 @@ const Chatroom: React.FC = () => {
     setMessage('');
   };
 =======
+=======
+>>>>>>> Stashed changes
   Sidebar,
   SidebarHeader,
   UserList,
@@ -144,6 +153,9 @@ const Chatroom: React.FC = () => {
     'Davi',
     'Monaly',
   ];
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
   return (
@@ -152,6 +164,7 @@ const Chatroom: React.FC = () => {
         <Header>
           <HeaderLogo src={logo} alt="Logo do Superchat" />
         </Header>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         <ChatArea>
           <MessagesDiv>
@@ -197,6 +210,8 @@ const Chatroom: React.FC = () => {
             </Fab>
           </MessageInputDiv>
 =======
+=======
+>>>>>>> Stashed changes
         <Sidebar>
           <SidebarHeader>Usuários Online</SidebarHeader>
           <ScrollContainer className="scroll-container">
@@ -217,6 +232,9 @@ const Chatroom: React.FC = () => {
             <input type="text" />
             {/* <MessageInput></MessageInput> */}
           </MessageDiv>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         </ChatArea>
       </ChatWindow>
@@ -225,6 +243,7 @@ const Chatroom: React.FC = () => {
 };
 
 export default Chatroom;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 {
@@ -244,5 +263,7 @@ export default Chatroom;
   </ScrollContainer>
 </Sidebar> */
 }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
