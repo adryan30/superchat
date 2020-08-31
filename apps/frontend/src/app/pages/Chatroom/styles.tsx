@@ -15,6 +15,7 @@ export const ChatWindow = styled.div`
   place-items: center;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 1fr 7fr;
+<<<<<<< Updated upstream
   /* grid-template-areas:
     'header  sidebar'
     'chat sidebar'; */
@@ -23,6 +24,16 @@ export const ChatWindow = styled.div`
     'header  header'
     'chat chat';
   /* } */
+=======
+  grid-template-areas:
+    'header  sidebar'
+    'chat sidebar';
+  @media (max-width: 1000px) {
+    grid-template-areas:
+      'header  header'
+      'chat chat';
+  }
+>>>>>>> Stashed changes
   background-image: radial-gradient(
       circle at center center,
       hsla(166, 0%, 10%, 1) 0%,
@@ -41,8 +52,11 @@ export const ChatWindow = styled.div`
 
 export const Header = styled.div`
   grid-area: header;
+<<<<<<< Updated upstream
   display: grid;
   place-items: center;
+=======
+>>>>>>> Stashed changes
 `;
 
 export const HeaderLogo = styled.img`
@@ -109,6 +123,7 @@ export const ChatArea = styled.div`
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 8fr 1fr;
   grid-template-areas:
+<<<<<<< Updated upstream
     '.   messages  .'
     '.    input    .';
 `;
@@ -161,3 +176,16 @@ export const MessageInput = styled.input`
     border: 4px solid black;
   }
 `;
+=======
+    'empty messages empty'
+    'empty input empty';
+`;
+
+export const MessageDiv = styled.div`
+  grid-area: input;
+  width: 100%;
+  height: 100%;
+`;
+
+export const MessageInput = styled.input``;
+>>>>>>> Stashed changes
